@@ -1,0 +1,12 @@
+
+body{
+  background: #440607 url(../images/bg.jpg) repeat-x center 0; 
+	color:white;
+}
+
+section#page_container
+{
+	width:967px;
+	margin: 100px;
+	text-align:center;
+}
