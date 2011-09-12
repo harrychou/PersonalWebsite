@@ -1,7 +1,6 @@
-
 body{
   background: #440607 url(../images/bg.jpg) repeat-x center -70px; 
-  font-family: 'Podkova', sans-serif;
+  'Josefin Sans', sans-serif;
 	padding: 100px;
   text-align: center;	
 }
@@ -20,10 +19,11 @@ article#home
   -webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 5px;
   -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 5px;
   box-shadow: rgba(0,0,0,0.2) 0px 1px 15px;
-        border-color:#440607;
-        border-style:double;
-        border-width:25px 30px 10px 20px;
-        -moz-border-image:url("../images/border.png") 25 30 10 20 repeat;
-        -webkit-border-image:url("../images/border.png") 25 30 10 20 repeat;
-        border-image:url("../images/border.png") 25 30 10 20 repeat;
+	/* border */
+  border-color:#440607;
+  border-width:25px 30px 10px 20px;
+  -moz-border-image:url("../images/border.png") 25 30 10 20 repeat;
+  -webkit-border-image:url("../images/border.png") 25 30 10 20 repeat;
+  border-image:url("../images/border.png") 25 30 10 20 fill repeat ;
+  behavior: url(../images/PIE.htc);
 }
