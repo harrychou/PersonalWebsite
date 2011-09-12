@@ -1,24 +1,29 @@
 
 body{
-  background: #440607 url(../images/bg.jpg) repeat-x center 0; 
-  font-family: Arial, Helvetica, sans-serif; 
+  background: #440607 url(../images/bg.jpg) repeat-x center -70px; 
+  font-family: 'Podkova', sans-serif;
 	padding: 100px;
+  text-align: center;	
 }
 
-section#page_container
+article#home
 {
-  border: 5px solid #ccc;
-	color: #ccc;
+	font-size: 20px;
+	line-height: 30px;
+	color: #440607;
   margin: 0 auto;
+	margin-top: 40px;
   width: 400px;
-  padding: 100px;
+  padding: 50px;
   text-align: center;
-  /* border-radius */
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
   /* box-shadow */
-  -webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
-  -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
-  box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+  -webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 5px;
+  -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 5px;
+  box-shadow: rgba(0,0,0,0.2) 0px 1px 15px;
+        border-color:#440607;
+        border-style:double;
+        border-width:25px 30px 10px 20px;
+        -moz-border-image:url("../images/border.png") 25 30 10 20 repeat;
+        -webkit-border-image:url("../images/border.png") 25 30 10 20 repeat;
+        border-image:url("../images/border.png") 25 30 10 20 repeat;
 }
