@@ -1,6 +1,6 @@
 body{
   background: #440607 url(../images/bg.jpg) repeat-x center -70px; 
-  'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 	padding: 100px;
   text-align: center;	
 }
