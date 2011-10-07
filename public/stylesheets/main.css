@@ -1,29 +1,72 @@
 body{
-  background: #440607 url(../images/bg.jpg) repeat-x center -70px; 
   font-family: 'Josefin Sans', sans-serif;
-	padding: 100px;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 100px;
+}
+h1
+{
   text-align: center;	
 }
+#page_container
+{
+	width: 960px;
+	margin: auto;
+}
+nav#home_nav
+{
+	float:right;
+	width: 200px;
+	height:200px;
+	margin-top:20px;
+}	
+
+#nav_list
+{
+	width:200px; height:200px;
+	background: url(../images/nav.png);
+	margin:0 auto;padding:0;
+	position: relative;
+}
+#nav_list li 
+{
+	margin:0; padding: 0; list-style: none;
+	position: absolute; left:0;
+	width: 40px;
+}
+#nav_list li, #nav_list a {
+	text-indent: -5000px;
+	height: 45px; display: block;
+}
+#link1 {top: 0px}
+#link2 {top: 50px}
+#link3 {top: 100px}
+#link4 {top: 150px}
+#link1 a:hover {width: 200px; background: transparent url(../images/nav.png) 0 -201px no-repeat}
+#link2 a:hover {width: 200px; background: transparent url(../images/nav.png) 0 -251px no-repeat}
+#link3 a:hover {width: 200px; background: transparent url(../images/nav.png) 0 -301px no-repeat}
+#link4 a:hover {width: 200px; background: transparent url(../images/nav.png) 0 -351px no-repeat}
 
 article#home
 {
+  text-align: center;	
 	font-size: 20px;
 	line-height: 30px;
-	color: #440607;
   margin: 0 auto;
 	margin-top: 40px;
   width: 400px;
   padding: 50px;
   text-align: center;
+	border: 0px;
   /* box-shadow */
-  -webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 5px;
-  -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 5px;
-  box-shadow: rgba(0,0,0,0.2) 0px 1px 15px;
+  -webkit-box-shadow: rgba(0,0,0,0.2) 3px 2px 8px;
+	-moz-box-shadow: rgba(0,0,0,0.2) 3px 2px 8px; 
+  box-shadow: rgba(0,0,0,0.2) 3px 2px 8px; 
 	/* border */
   border-color:#440607;
-  border-width:25px 30px 10px 20px;
-  -moz-border-image:url("../images/border.png") 25 30 10 20 repeat;
-  -webkit-border-image:url("../images/border.png") 25 30 10 20 repeat;
-  border-image:url("../images/border.png") 25 30 10 20 fill repeat ;
+  border-width: 8px 5px 3px 17px;
+  -moz-border-image: url("../images/border.png") 20 20 18 20 repeat;
+  -webkit-border-image: url("../images/border.png") 20 20 18 20 repeat;
+  border-image: url("../images/border.png") 20 20 18 20 repeat;
   behavior: url(../images/PIE.htc);
 }
