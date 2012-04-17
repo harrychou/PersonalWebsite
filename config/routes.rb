@@ -3,6 +3,7 @@ PersonalSite::Application.routes.draw do
 	match '/', :to => "pages#home"
 	match 'about', :to => "pages#about"
 	match 'contact', :to => "pages#contact"
+	match 'limelight/', :to => "limelight#mobile"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
