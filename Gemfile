@@ -5,8 +5,8 @@ gem 'sqlite3', '1.3.3'
 gem 'toto'
 gem 'builder'
 gem 'rdiscount'
-
-
+gem 'ruby-hmac'
+gem 'htmlentities'
 
 group :development do
   gem 'rspec-rails', '2.6.1'
